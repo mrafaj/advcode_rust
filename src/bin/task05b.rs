@@ -1,3 +1,20 @@
+use advcode_rust_template::file_reader;
+
 fn main() {
-    println!("msg1");
+    print!("{}", solver("data/dayNb.txt"));
+}
+
+fn solver(path : &str) -> T {
+    let lines : Vec<String> = file_reader::lines_from_file(path);
+}
+
+#[cfg(test)]
+mod tests {
+    use  super::*;
+
+    #[test]
+    fn it_works() {
+        let result = solver("data/dayNtest.txt");
+        assert_eq!(result, RESULT);
+    }
 }

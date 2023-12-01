@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 use advcode_rust_template::file_reader;
 
 fn main() {

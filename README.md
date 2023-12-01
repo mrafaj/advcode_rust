@@ -1,1 +1,1 @@
-# advcode_rust_template
+# advcode_rust

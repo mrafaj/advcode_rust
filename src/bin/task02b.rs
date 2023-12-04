@@ -61,7 +61,7 @@ fn solver(path: &str) -> u32 {
 
 #[cfg(test)]
 mod tests {
-    use  super::*;
+    use  super::solver;
 
     #[test]
     fn it_works() {
